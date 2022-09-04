@@ -14,5 +14,5 @@ use App\Http\Controllers\TopController;
 |
 */
 
-Route::get('/', [TopController::class, 'show']);
+Route::get('/top', [TopController::class, 'show']);
 
